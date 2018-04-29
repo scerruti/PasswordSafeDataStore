@@ -6,6 +6,7 @@ plugins {
 group 'com.otabi'
 
 apply plugin: 'java'
+apply plugin: 'org.jetbrains.intellij'
 
 sourceCompatibility = 1.8
 
