@@ -1,0 +1,19 @@
+plugins {
+    id "org.jetbrains.intellij" version "0.3.1"
+    id 'net.researchgate.release' version '2.6.0'
+}
+
+group 'com.otabi'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "com.google.api-client:google-api-client:1.23.0"
+}
